@@ -6,7 +6,7 @@ import time
 data = pd.read_csv('test.csv')
 
 # Server URL
-server_url = 'http://127.0.0.1:5000/predict'
+server_url = 'http://x22187898-apt-env.eba-bprbucmf.ap-south-1.elasticbeanstalk.com/predict'
 
 # Send each packet of data to the server every 5 seconds
 for index, row in data.iterrows():
